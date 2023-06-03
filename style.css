@@ -7,19 +7,17 @@
   font-family: 'Kanit', sans-serif;
 }
 
-.contain-body {
-}
 .image-fix {
   height: 55.6%;
   border-bottom-left-radius: 17px;
   border-bottom-right-radius: 17px;
 }
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f9f9f9;
+.container-now {
+  background-color: white;
   height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
 }
 
 .product-contain {

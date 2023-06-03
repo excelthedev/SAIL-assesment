@@ -1,4 +1,4 @@
-const productContainer = document.getElementById('product-container');
+const productContainer = document.getElementById('container');
 
 console.log('Js woerking');
 
