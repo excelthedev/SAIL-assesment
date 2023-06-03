@@ -12,18 +12,13 @@ getDetailsHere = data => {
 
 function getProductDetails(showMe) {
   const html = `
-        <div class="product-contain" id="product-container">
-          <img
-            src="${showMe.image}"
-            alt="image"
-            height="170rem"
-            width="100%"
-          />
+         <div class="product-contain" id="product-container">
+          <img src="./img/calculator.jpg" alt="image" class="image-fix" />
           <div class="product-info">
-            <p>Product Name: ${showMe.title} </p>
-            <p>Product Price: ${showMe.price}</p>
-            <p>Product Description: ${showMe.description}</p>
-            <p>Product Category: ${showMe.category}</p>
+            <p class="paragraph" id="product-name">Product Name:</p>
+            <p class="paragraph">Product Price:</p>
+            <p class="paragraph">Product Description:</p>
+            <p class="paragraph">Product Category:</p>
           </div>
         </div>
       `;
