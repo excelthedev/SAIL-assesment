@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Kanit&family=Oswald&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+.contain-body {
+}
+.image-fix {
+  height: 55.6%;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  height: 100vh;
+}
+
+.product-contain {
+  background-color: #ffffff;
+  height: 30rem;
+  border-radius: 10px;
+  width: 25rem;
+  box-shadow: 0px 16px 16px 16px #f3f3f3;
+}
+
+.product-info {
+  font-size: 20px;
+  color: #414d50;
+}
+
+.paragraph {
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
